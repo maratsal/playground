@@ -40,7 +40,7 @@ jobs:
             --apiurl ${SYSDIG_SECURE_ENDPOINT} \
             --console-log \
             --json-scan-result report.json \
-            quay.io/maratsal/php:latest
+            quay.io/maratsal/test:latest
 
       - name: Generate SARIF report
         run: |
