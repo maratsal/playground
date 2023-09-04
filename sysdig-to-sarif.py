@@ -3,7 +3,6 @@
 import argparse
 import json
 import logging
-from jsonschema import validate
 
 # Setup logger
 LOG = logging.getLogger(__name__)
