@@ -88,7 +88,6 @@ def generate_report(data):
                     }
                 ]
             }
-            ruleIds.append(vuln['name'])
             results.append(result)
 
     run = {
